@@ -60,7 +60,8 @@ code {
   padding: 0.5em;
   background-color: #c0b7ac;
   display: block;
-  margin: 0.2em auto; }
+  margin: 0.2em auto;
+  font-size: 0.9rem; }
 
 .main {
   width: 90%;
