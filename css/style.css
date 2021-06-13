@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  background-color: #f7ede1af; }
+
+.nav {
+  min-width: max-content;
+  max-height: 20vh;
+  margin: 0 auto;
+  overflow: auto;
+  border: 2px solid #3b3b3b;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+  text-align: center; }
+  .nav__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #232372;
+    width: 100%;
+    padding: 0.5em 1em; }
+  .nav__list {
+    list-style: none;
+    width: 100%;
+    padding: 0; }
+    .nav__list__li {
+      border-top: 2px solid #3b3b3b;
+      width: 100%;
+      padding: 0.2em; }
+  .nav-link:link, .nav-link:visited {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s; }
+  .nav-link:hover {
+    color: #232372;
+    font-weight: 700;
+    font-size: 1.2rem; }
+
+header {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0.5em 0; }
+
+code {
+  width: 90%;
+  padding: 0.5em;
+  background-color: #c0b7ac;
+  display: block;
+  margin: 0.2em auto; }
+
+.main {
+  width: 90%;
+  margin: 0 auto; }
+  .main-section {
+    padding: 0.5em 0; }
+    .main-section__text:not(:last-child) {
+      padding-bottom: 0.5em; }
+    .main-section__list {
+      width: 90%;
+      margin: 0.5em 2em; }
+
+@media only screen and (min-width: 800px) {
+  body {
+    display: flex;
+    width: 95%;
+    margin: 1em auto;
+    max-width: 1024px;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5); }
+  .nav {
+    max-height: 100%;
+    margin: 0;
+    border: none;
+    border-right: 2px solid #3b3b3b;
+    padding-top: 1.5em; }
+    .nav__title {
+      padding: 0.6em; }
+    .nav__list__li {
+      border-bottom: 2px solid #3b3b3b;
+      width: 100%;
+      padding: 1em 0.5em; }
+  .main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5em; }
+    .main-section {
+      padding: 0.5em 0; }
+      .main-section__text:not(:last-child) {
+        padding-bottom: 0.5em; } }
